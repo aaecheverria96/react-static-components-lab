@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-export class GraceHopperQuoteComponent extends Component {
+
+ class GraceHopperQuoteComponent extends Component {
 	render() {
 		return (
 			<div className="bar" id="hopper">
@@ -15,3 +16,5 @@ export class GraceHopperQuoteComponent extends Component {
 		);
 	}
 }
+
+export default GraceHopperQuoteComponent; 
